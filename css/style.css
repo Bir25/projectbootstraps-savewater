@@ -1,0 +1,740 @@
+@import url("https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@200;300;400;500;600;700;800&display=swap");
+body {
+  font-family: 'Gemunu Libre', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.container {
+  max-width: 1270px;
+}
+
+img {
+  display: block;
+}
+
+.active1 {
+  background: #001fff;
+  display: inline-block;
+  padding: 3px;
+  border-radius: 5px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background: #008cc9;
+}
+
+.header h1 {
+  color: #001fff;
+  font-weight: bold;
+  font-size: 55px;
+}
+
+.search {
+  height: 40px;
+  width: 200px;
+  padding-left: 20%;
+  border-radius: 3px;
+  border: 2px solid skyblue;
+  padding-right: 0;
+}
+
+.bit {
+  margin-bottom: 4px;
+  background: #0077ff;
+  margin-left: -4px;
+  color: #fff;
+  border-radius: 5px 0 5px 0;
+  border: 2px solid #0077ff;
+  padding: 6px;
+}
+
+.bit:hover {
+  color: black;
+}
+
+.menu {
+  background: #0077ff;
+}
+
+.menu-sub ul {
+  list-style: none;
+}
+
+.menu-sub ul li {
+  display: inline-block;
+  padding: 10px  20px 10px 0px;
+}
+
+.menu-sub ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.menu-sub ul li a:hover {
+  color: black;
+}
+
+.menu-sub2 {
+  background: black;
+  width: 100%;
+  height: 100%;
+  padding: 15px 40px 15px 15px;
+  border-radius: 5px;
+}
+
+.menu-sub2 h4 {
+  font-size: 20px;
+}
+
+.menu-sub2 h4 a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding-left: 25px;
+}
+
+.menu-sub2 h4 a:hover {
+  color: #001fff;
+}
+
+.carousel-caption {
+  left: 50%;
+  bottom: 40%;
+  -webkit-transform: translate(-50%, 50%);
+          transform: translate(-50%, 50%);
+  width: 50%;
+}
+
+.carousel-caption h1 {
+  font-size: 50px;
+  font-weight: bold;
+  color: #000a80fa;
+}
+
+.carousel-caption h2 {
+  font-weight: bold;
+  font-size: 35px;
+  color: #000;
+}
+
+.carousel-caption a {
+  background-color: #0077ff;
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px;
+  color: #fff;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.carousel-caption a:hover {
+  color: black;
+}
+
+.w-100 {
+  height: 450px !important;
+}
+
+.mission h2 {
+  font-size: 35px;
+  color: #000a80fa;
+}
+
+.mission-sub1 {
+  background: #fff;
+  border-radius: 8px;
+  -webkit-box-shadow: 0 0 29px 0 #44580c;
+          box-shadow: 0 0 29px 0 #44580c;
+}
+
+.mission-sub1 a {
+  background-color: #0077ff;
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px;
+  margin-bottom: 10px;
+  color: #fff;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.mission-sub1 a:hover {
+  color: black;
+}
+
+.m-box {
+  overflow: hidden;
+}
+
+.m-box img {
+  width: 100%;
+  height: 140px;
+  -webkit-transition: 0.9s;
+  transition: 0.9s;
+}
+
+.m-box:hover img {
+  -webkit-transform: scale(2) rotate(-5deg);
+          transform: scale(2) rotate(-5deg);
+}
+
+.featured h1 {
+  color: #000a80fa;
+  font-size: 35px;
+}
+
+.featured h3 {
+  font-size: 18px;
+  color: #0077ff;
+}
+
+.features h4 {
+  color: #0077ff;
+}
+
+.features hr {
+  color: #000a80fa;
+  height: 2px;
+}
+
+.features p {
+  text-align: justify;
+}
+
+.features a {
+  background-color: #0077ff;
+  text-decoration: none;
+  display: inline-block;
+  padding: 3px;
+  color: #fff;
+  border-radius: 3px;
+  font-weight: bold;
+}
+
+.features a:hover {
+  color: black;
+}
+
+.para p {
+  font-size: 15px;
+  color: grey;
+  font-weight: bold;
+  margin-top: 6px;
+}
+
+.features2 h4 {
+  color: #0077ff;
+}
+
+.features2 hr {
+  color: #000a80fa;
+  height: 2px;
+}
+
+.features2 a {
+  background-color: #0077ff;
+  text-decoration: none;
+  display: inline-block;
+  padding: 3px;
+  color: #fff;
+  border-radius: 3px;
+  font-weight: bold;
+}
+
+.features2 a:hover {
+  color: black;
+}
+
+.event img {
+  width: 150px;
+  height: 120px;
+}
+
+.title h3 {
+  font-size: 35px;
+  color: #000a80fa;
+}
+
+.title h1 {
+  font-size: 35px;
+  color: #000a80fa;
+}
+
+.cause {
+  border-radius: 3px;
+}
+
+.cause img {
+  width: 300px;
+  height: 170px;
+}
+
+.cause h4 {
+  font-size: 18px;
+  color: #000a80fa;
+}
+
+.cause p {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.btn {
+  background: #0077ff;
+  color: #fff;
+  border-radius: 3px;
+  border: 2px solid #0077ff;
+  padding: 3px;
+}
+
+#image-gallery .modal-footer {
+  display: block;
+}
+
+.thumb {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.gal h1 {
+  font-size: 35px;
+  color: #000a80fa;
+}
+
+.gal .btn {
+  margin: 5px;
+}
+
+.donation {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url(https://wallpaperaccess.com/full/243615.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://wallpaperaccess.com/full/243615.jpg);
+  height: 550px;
+  width: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.donate {
+  background: white;
+  opacity: 0.8;
+  width: 500px;
+}
+
+.donate p {
+  font-weight: bold;
+}
+
+.donate h1 {
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.donate hr {
+  width: 65px;
+  border: 1px solid black;
+}
+
+.form-sub {
+  padding: 0px 50px 0px 50px;
+}
+
+.form-sub h3 {
+  font-size: 19px;
+  font-weight: bold;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: 110px;
+  border-radius: 49%;
+  margin-bottom: 25px;
+}
+
+.testinomials {
+  background: #f9f9ff;
+  padding: 50px 0;
+}
+
+.desc p {
+  text-align: justify;
+  padding-left: 25px;
+}
+
+.thumb {
+  margin-top: 3px;
+}
+
+.brand-sub img {
+  width: 200px;
+  height: 150px;
+}
+
+.card {
+  position: relative;
+}
+
+.card img {
+  height: 178px;
+}
+
+.hovercard {
+  position: absolute;
+  top: 0;
+  width: 85px;
+  height: 48.5%;
+  background: #0077ff;
+}
+
+.hovercard ul {
+  list-style: none;
+}
+
+.hovercard ul li {
+  font-weight: bold;
+  display: blocck;
+  padding: 8px;
+  color: white;
+}
+
+.hovercard ul li:hover {
+  color: #000a80fa;
+}
+
+.hovercard ul li i {
+  font-size: 20px;
+}
+
+.blogs h1 {
+  font-size: 35px;
+  color: #000a80fa;
+}
+
+footer {
+  background: #000a80fa;
+  padding: 40px 0;
+  color: grey;
+}
+
+footer p {
+  color: #fff;
+  text-align: justify;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+footer a {
+  text-decoration: none;
+  font-size: 17px;
+  color: #fff;
+}
+
+footer a i {
+  color: #fff;
+  padding-right: 3px;
+}
+
+footer a i:hover {
+  color: #000;
+}
+
+footer a:hover {
+  color: #000;
+}
+
+footer h1 {
+  font-size: 45px;
+  font-weight: bold;
+  color: #fff;
+}
+
+footer h2 {
+  font-size: 30px;
+}
+
+footer h6 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer ul li {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+footer ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+footer ul li a i {
+  padding-left: 2px;
+}
+
+footer ul li a i:hover {
+  color: #000;
+}
+
+.social li {
+  display: inline;
+  padding: 5px;
+  color: #fff;
+}
+
+.social li i:hover {
+  color: #000;
+}
+
+.footer-btn {
+  background: #0077ff;
+  color: white;
+  border: 1.5px solid #0077ff;
+  margin-left: -1%;
+}
+
+.footer_bottom {
+  color: #fff;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.article1 img {
+  width: 100%;
+  height: 400px;
+}
+
+.article-left {
+  padding: 20px 10%;
+}
+
+.article-left p {
+  text-align: justify;
+}
+
+.article-left h1 {
+  color: #001fff;
+}
+
+.card1 img {
+  width: 100%;
+  height: 200px;
+}
+
+.card1-body h3 {
+  text-align: center;
+  font-weight: bold;
+}
+
+.card1-body p {
+  text-align: center;
+  font-weight: bold;
+  color: grey;
+}
+
+.contact {
+  width: 500px;
+  height: 500px;
+  margin-left: 32%;
+}
+
+.contact h1 {
+  color: #001fff;
+}
+
+.form-control-sub1 {
+  display: block;
+  width: 100%;
+  height: 200px;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  border: 1px solid #ced4da;
+}
+
+.map h1 {
+  color: #001fff;
+}
+
+.arrow {
+  width: 50px;
+  height: 50px;
+  background: #0077ff;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  text-align: center;
+  border-radius: 50%;
+  z-index: 999;
+}
+
+.arrow a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.arrow i {
+  line-height: 50px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+  background: #001fff;
+}
+
+.reason h1 {
+  font-size: 40px;
+  color: #001fff;
+}
+
+.reason h3 {
+  color: #0077ff;
+}
+
+.reason p {
+  text-align: justify;
+}
+
+.reason a {
+  text-decoration: none;
+}
+
+.owl-carousel button.owl-dot {
+  background: #000;
+  width: 20px;
+  height: 20px;
+  margin: 2px;
+  border-radius: 50%;
+}
+
+.owl-dots {
+  margin: 0;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  text-align: center;
+}
+
+.owl-dot.active {
+  background: #000a80fa !important;
+}
+
+.menu-sub span {
+  display: none;
+}
+
+@media (max-width: 650px) {
+  .menu-sub2 {
+    background: black;
+    width: 195px;
+    height: 100%;
+    padding: 15px 40px 15px 15px;
+    border-radius: 5px;
+    margin: auto;
+  }
+  .carousel-caption h2 {
+    font-size: 20px;
+  }
+  .carousel-caption h1 {
+    font-size: 35px;
+  }
+  .mission h2 {
+    font-size: 29px;
+  }
+  .m-box img {
+    height: 200px;
+  }
+  .mission1 {
+    margin-bottom: 30px;
+  }
+  .featured h1 {
+    color: #000a80fa;
+    font-size: 29px;
+    text-align: center;
+  }
+  .title h3 {
+    font-size: 29px;
+  }
+  .gal h1 {
+    font-size: 29px;
+  }
+  .title h1 {
+    font-size: 29px;
+  }
+  .blogs h1 {
+    font-size: 29px;
+  }
+  .hovercard {
+    height: 56.2%;
+  }
+  .card {
+    margin-bottom: 20px;
+  }
+  footer h1 {
+    font-size: 29px;
+  }
+  footer h6 {
+    font-size: 17px;
+  }
+  footer p {
+    font-size: 15px;
+  }
+  footer h2 {
+    font-size: 25px;
+  }
+  footer a {
+    font-size: 15px;
+  }
+  .footer-btn {
+    height: 18.5%;
+  }
+  .footer_bottom {
+    font-size: 15px;
+  }
+  .contact {
+    margin-left: 50px;
+  }
+  .reason h1 {
+    font-size: 35px;
+  }
+  .menu-sub span {
+    display: block;
+    text-align: center;
+    padding-bottom: 4px;
+  }
+  .menu-sub span i {
+    font-size: 30px;
+  }
+  .menu-sub ul li {
+    display: block;
+    text-align: center;
+  }
+}
+/*# sourceMappingURL=style.css.map */
